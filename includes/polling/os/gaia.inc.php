@@ -9,6 +9,7 @@
  * @subpackage poller
  * @copyright  (C) 2006-2013 Adam Armstrong, (C) 2013-2016 Observium Limited
  *
+ * Comment for test purpose
  */
 
 if (empty($hardware)) // Fallback since svnApplianceProductName is only supported since R77.10
