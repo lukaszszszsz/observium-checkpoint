@@ -111,6 +111,22 @@ if ($device['uptime'])
       </tr>');
 }
 
+if ($device['uptime'])
+{
+  echo('<tr>
+        <td class="entity">Uptime</td>
+        <td>' . deviceUptime($device) . '</td>
+      </tr>');
+}
+
+if ($device['policyName'])
+{
+  echo('<tr>
+        <td class="entity">Policy Name</td>
+        <td>' . policyName($device) . '</td>
+      </tr>');
+}
+
 echo("</table>");
 echo generate_box_close();
 
