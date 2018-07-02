@@ -114,8 +114,8 @@ if ($device['uptime'])
 if ($device['hostname'])
 {
   echo('<tr>
-        <td class="entity">Uptime</td>
-        <td>' . deviceUptime($device) . '</td>
+        <td class="entity">hostname</td>
+        <td>' . deviceHostname($device) . '</td>
       </tr>');
 }
 

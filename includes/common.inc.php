@@ -979,6 +979,12 @@ function deviceUptime($device, $format="long")
   }
 }
 
+
+function deviceHostname($device, $format="long")
+{
+  return $device['hostname'];
+}
+
 /**
  * Format seconds to requested time format.
  *
