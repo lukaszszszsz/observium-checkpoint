@@ -111,7 +111,7 @@ if ($device['uptime'])
       </tr>');
 }
 
-if ($device['uptime'])
+if ($device['hostname'])
 {
   echo('<tr>
         <td class="entity">Uptime</td>
